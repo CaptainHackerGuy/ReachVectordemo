@@ -55,7 +55,7 @@ export const CompanyHero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12] mb-6 max-w-4xl mx-auto text-balance"
         >
-          Engineering resilient hardware for the edge of reality.
+          Direction. Magnitude. Intelligence.
         </motion.h1>
 
         {/* Refined Narrative blending AI company positioning without over-hyping */}
