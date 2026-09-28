@@ -87,8 +87,8 @@ export const CompanyAbout: React.FC<CompanyAboutProps> = ({ onOpenTerms }) => {
                 <div className="flex-1">
                   <span className="text-slate-500 block text-xs">Official Inquiries</span>
                   <div className="flex items-center gap-2">
-                    <a href="mailto:contact@reachvector.com" className="font-semibold text-slate-900 hover:text-cyan-700 transition-colors">
-                      contact@reachvector.com
+                    <a href="mailto:contact@reachvector.in" className="font-semibold text-slate-900 hover:text-cyan-700 transition-colors">
+                      contact@reachvector.in
                     </a>
                     <button
                       type="button"
