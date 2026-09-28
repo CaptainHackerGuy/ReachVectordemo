@@ -32,7 +32,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTerms }) => {
             </a>
 
             <p className="text-slate-600 leading-relaxed text-xs sm:text-sm max-w-sm">
-              ReachVector Intelligence LLP develops intelligent edge architectures, applied computing platforms, and specialized autonomous physical hardware.
+              We're a technology and product company building focused tools — hardware and, increasingly, AI-powered software — engineered around a simple idea: solve one real problem completely, without asking people to manage more than they need to.
             </p>
 
             <div className="space-y-2 text-xs text-slate-600 pt-1">
