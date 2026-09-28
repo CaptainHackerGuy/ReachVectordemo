@@ -10,7 +10,7 @@ export const CompanyAbout: React.FC<CompanyAboutProps> = ({ onOpenTerms }) => {
   const [copiedAddress, setCopiedAddress] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('contact@reachvector.com');
+    navigator.clipboard.writeText('contact@reachvector.in');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
