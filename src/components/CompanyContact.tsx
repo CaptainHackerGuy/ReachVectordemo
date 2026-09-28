@@ -44,7 +44,7 @@ export const CompanyContact: React.FC = () => {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('contact@reachvector.com');
+    navigator.clipboard.writeText('contact@reachvector.in');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -68,7 +68,7 @@ export const CompanyContact: React.FC = () => {
             Contact &amp; Inquiries
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
-            Reach out to ReachVector Intelligence LLP for corporate, engineering, and partner inquiries. For direct correspondence, email us at <strong className="text-slate-900">contact@reachvector.com</strong>.
+            Reach out to ReachVector Intelligence LLP for corporate, engineering, and partner inquiries. For direct correspondence, email us at <strong className="text-slate-900">contact@reachvector.in</strong>.
           </p>
         </div>
 
@@ -97,8 +97,8 @@ export const CompanyContact: React.FC = () => {
                   <div className="flex-1">
                     <span className="text-slate-500 text-xs block">Corporate Email</span>
                     <div className="flex items-center gap-2">
-                      <a href="mailto:contact@reachvector.com" className="font-semibold text-slate-900 hover:text-cyan-700 transition-colors">
-                        contact@reachvector.com
+                      <a href="mailto:contact@reachvector.in" className="font-semibold text-slate-900 hover:text-cyan-700 transition-colors">
+                        contact@reachvector.in
                       </a>
                       <button
                         type="button"
@@ -259,7 +259,7 @@ export const CompanyContact: React.FC = () => {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="contact@reachvector.com"
+                      placeholder="contact@reachvector.in"
                       className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-slate-900 focus:bg-white transition-all"
                     />
                   </div>
@@ -320,7 +320,7 @@ export const CompanyContact: React.FC = () => {
 
                 <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <span className="text-[11px] text-slate-500">
-                    Direct email: <a href="mailto:contact@reachvector.com" className="underline text-slate-700 hover:text-slate-900 font-medium">contact@reachvector.com</a>
+                    Direct email: <a href="mailto:contact@reachvector.in" className="underline text-slate-700 hover:text-slate-900 font-medium">contact@reachvector.in</a>
                   </span>
 
                   <button
