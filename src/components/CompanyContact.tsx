@@ -161,7 +161,19 @@ export const CompanyContact: React.FC = () => {
                 Statutory ID: ReachVector Intelligence LLP · LLPIN ADC-7323
               </div>
             </div>
-            
+
+            {/* Quick PurrfectBackup Outbound Portal */}
+            <div className="bg-slate-100/80 border border-slate-200 rounded-2xl p-5 text-xs text-slate-600 space-y-2">
+              <span className="font-semibold text-slate-900 block">Looking for PurrfectBackup product details?</span>
+              <p>
+                Visit the standalone product portal for firmware downloads, user manual, and international ordering at{' '}
+                <a href="https://purrfectbackup.com/" target="_blank" rel="noopener noreferrer" className="text-slate-900 font-semibold underline hover:text-cyan-700">
+                  purrfectbackup.com
+                </a>.
+              </p>
+            </div>
+          </div>
+
           {/* Right Column: Contact & Registration Form */}
           <div className="lg:col-span-7 bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
             {submitted ? (
