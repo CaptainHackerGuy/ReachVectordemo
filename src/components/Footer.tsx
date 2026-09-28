@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTerms }) => {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('contact@reachvector.com');
+    navigator.clipboard.writeText('contact@reachvector.in');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -38,8 +38,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTerms }) => {
             <div className="space-y-2 text-xs text-slate-600 pt-1">
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                <a href="mailto:contact@reachvector.com" className="hover:text-slate-900 font-medium text-slate-800 transition-colors">
-                  contact@reachvector.com
+                <a href="mailto:contact@reachvector.in" className="hover:text-slate-900 font-medium text-slate-800 transition-colors">
+                  contact@reachvector.in
                 </a>
                 <button
                   type="button"
