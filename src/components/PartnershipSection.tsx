@@ -14,7 +14,7 @@ export const PartnershipSection: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('contact@reachvector.com');
+    navigator.clipboard.writeText('contact@reachvector.in');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
